@@ -1,0 +1,158 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+
+}
+
+
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ec0909;
+    color: #fff;
+}
+
+content {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin: 40px;
+
+    text-align: justify;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+text {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 145, 10);
+    color: #333;
+
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 2rem 0;
+    font-size: 120%;
+    
+}
+
+#flag {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+#country-name {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    margin: 4rem;
+    border-radius: 16px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(/img/bandeiramudada.jpg);
+    background-size: 35%;
+    font-size: 120%;
+
+
+}
+
+.topic-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.topic-image {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.introduction {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    background-image: url(/img/bandeiramudada.jpg);
+    background-size: 100%;
+}
+
+.names {
+    text-align: center;
+    margin-top: 2rem;
+}
