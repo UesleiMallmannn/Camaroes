@@ -16,12 +16,27 @@ body {
 
 }
 
+.bandeira {
+    text-align: center;
+    background-size: 80%;
+    height: 320px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
 
-
+header ul {
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+    
+}
 header {
     background-color: #f5f5f5;
     padding: 20px;
+    margin: 0px;
     text-align: center;
+    
 }
 
 nav ul {
@@ -60,6 +75,8 @@ content {
 
 h1 {
     margin-top: 0;
+    color: aquamarine;
+    font-size: 120px;
 }
 
 text {
@@ -73,16 +90,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(207, 145, 10);
+    background-color: rgba(81, 86, 83, 0.925);
     color: #333;
 
 }
 
 header {
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: rgba(81, 86, 83, 0.925);
     padding: 2rem 0;
-    font-size: 120%;
+    font-size: 140%;
+   
+    
+   
     
 }
 
@@ -102,6 +122,10 @@ nav {
     color: white;
     text-align: center;
     padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 nav a {
@@ -119,40 +143,50 @@ section {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
     background-image: url(/img/bandeiramudada.jpg);
     background-size: 35%;
-    font-size: 120%;
+    font-size: 140%;
 
 
 }
 
 .topic-content {
     flex: 1;
-    padding: 1rem;
 }
 
 .topic-image {
     flex: 1;
-    padding: 1rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
 .introduction {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: justify;
     background-image: url(/img/bandeiramudada.jpg);
     background-size: 100%;
+    
 }
 
 .names {
     text-align: center;
     margin-top: 2rem;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+}
+
+.images {
+    width: 700px;
+    height: 600px;
+    word-wrap: break-word;
 }
